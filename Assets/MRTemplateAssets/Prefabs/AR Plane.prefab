@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 5957833283581771562}
   - component: {fileID: 6603289050495117310}
   - component: {fileID: 5563675708783539550}
+  - component: {fileID: 2840219069388515880}
   m_Layer: 7
   m_Name: AR Plane
   m_TagString: Untagged
@@ -66,7 +67,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TrackingStateVisibilityThreshold: 1
-  m_HideSubsumed: 1
+  m_HideSubsumed: 0
 --- !u!64 &6044376299624718774
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -274,3 +275,34 @@ MonoBehaviour:
   fadeAlphaSpeed: 0.5
   viewRadius: 2.5
   alpha: 0.5
+--- !u!114 &2840219069388515880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5982963534685165758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 0}
+  m_BuildHeightMesh: 0
